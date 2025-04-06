@@ -1,6 +1,6 @@
 # Project_Course
 
-Questo progetto nasce come parte di un corso universitario e ha l'obiettivo di simulare una rete SDN usando Comnetsemu, generare traffico, salvare file .pcap, estrarre metriche di rete (throughput, delay, jitter) e utilizzare un modello LSTM per prevedere le performance di rete.
+Questo progetto nasce come parte di un corso universitario e ha l'obiettivo di simulare una rete SDN usando Comnetsemu, generare traffico, salvare file .pcap, estrarre metriche di rete (throughput, delay, jitter).
 
 ## Requisiti
 
@@ -8,18 +8,19 @@ Questo progetto nasce come parte di un corso universitario e ha l'obiettivo di s
 - Python 3
 - Docker
 - tshark / Wireshark
-- Librerie Python: pandas, numpy, matplotlib, scapy, tensorflow, keras
+- Conda
+- Librerie Python: pyshark, os, json, defauldict 
 
 ## Struttura del progetto
 
-La struttura base del progetto è la seguente:
+network.py: Script per configurare la rete in Mininet e generare traffico.
 
-- `pcap_dumps/` → contiene i file .pcap generati
-- `scripts/parse_pcap.py` → script per estrarre metriche dai file .pcap
-- `scripts/plot_results.py` → script per visualizzare graficamente i risultati
-- `ml/lstm_train.py` → script per addestrare il modello LSTM
-- `ml/lstm_predict.py` → script per eseguire previsioni con il modello LSTM
-- `topology/topology.py` → definizione della rete simulata con Comnetsemu
+estrazione_features_tirocinio.py: Script per analizzare i file pcap e estrarre le caratteristiche.
+
+pcap_demo/: Cartella dove posizionare i file pcap da analizzare.
+
+csv_demo/: Cartella dove verranno salvati i risultati dell'analisi.
+
 - `README.md` → questo file
 
 ## Come usare il progetto

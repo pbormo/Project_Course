@@ -35,7 +35,7 @@ file_extract_demo/: Cartella dove verranno salvati i risultati dell'analisi.
 
 ## Esempi di risultati dei file pcap_demo già inseriti nella cartella
 
-Partendo dal file h1.pcap si riescono ad estrarre le seguenti metriche scritte nel file txt e json:
+Partendo dal file h1_traffic.pcap si riescono ad estrarre le seguenti metriche scritte nel file h1_traffic.txt e h1_traffic.json:
 
 json:
 {

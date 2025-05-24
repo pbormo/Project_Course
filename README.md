@@ -1,5 +1,4 @@
 # Project_Course
-<<<<<<< HEAD
 Simulazione dati con mininet ed estrazione features
 =======
 
@@ -44,4 +43,3 @@ Il progetto è eseguito all’interno di una macchina virtuale con Comnetsemu e 
 ## Autori
 
 Progetto sviluppato nell’ambito del corso universitario di networking 2 presso l'Università degli Studi di Trento.
->>>>>>> 28e1c7d3f8e940a8565a35a40442376331b749f6

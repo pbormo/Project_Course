@@ -35,7 +35,48 @@ file_extract_demo/: Cartella dove verranno salvati i risultati dell'analisi.
 
 ## Esempi di risultati dei file pcap_demo già inseriti nella cartella
 
+Partendo dal file h1.pcap si riescono ad estrarre le seguenti metriche scritte nel file txt e json:
 
+json:
+{
+    "unique_ips": [
+        "10.0.0.1",
+        "10.0.0.3",
+        "10.0.0.5",
+        "10.0.0.6",
+        "10.0.0.4",
+        "10.0.0.2",
+        "10.0.0.7"
+        ],
+    "connections": [
+        {
+            "source_ip": "10.0.0.1",
+            "destination_ip": "10.0.0.2",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741092804.801575,
+            "end_timestamp": 1741092811.984088,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 54.57699833991925
+        } ...
+
+txt: 
+Indirizzi IP unici:
+10.0.0.1
+10.0.0.3
+10.0.0.5
+10.0.0.6
+10.0.0.4
+10.0.0.2
+10.0.0.7
+
+Connessioni attive:
+10.0.0.1:None -> 10.0.0.2:None [ICMP]
+  Start: 1741092804.801575, End: 1741092811.984088
+  Packets: 4, Bytes: 392
+  Throughput: 54.58 Bps ....
 ## Note
 
 Il progetto è eseguito all’interno di una macchina virtuale con Comnetsemu e si basa sulla raccolta dati real-time generati tramite simulazione. Possibili estensioni del progetto includono l’uso di altri modelli predittivi e l’aggiunta di ulteriori metriche.

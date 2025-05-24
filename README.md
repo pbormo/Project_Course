@@ -31,6 +31,9 @@ file_extract_demo/: Cartella dove verranno salvati i risultati dell'analisi.
 5. Trasferire i risultati nella cartella `pcap_dumps/` sul PC nella cartella pcap_demo/
 6. Quindi utilizzare il file estrazione_features_tirocinio.py, una volta che questo codice finirà verranno salvati i file txt e json contenenti le metriche d'interesse all'interno della cartella `file_extract_demo`
 
+## Esempi di risultati dei file pcap_demo già inseriti nella cartella
+
+
 ## Note
 
 Il progetto è eseguito all’interno di una macchina virtuale con Comnetsemu e si basa sulla raccolta dati real-time generati tramite simulazione. Possibili estensioni del progetto includono l’uso di altri modelli predittivi e l’aggiunta di ulteriori metriche.

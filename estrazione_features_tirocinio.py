@@ -113,5 +113,5 @@ def process_pcap_directory(input_dir, output_dir):
 
 # Esempio di utilizzo
 input_directory = r"C:\Users\ACER\Documents\netmod2\tirocinio\pcap_demo"
-output_directory = r"C:\Users\ACER\Documents\netmod2\tirocinio\csv_demo"
+output_directory = r"C:\Users\ACER\Documents\netmod2\tirocinio\file_extract_demo"
 process_pcap_directory(input_directory, output_directory)

@@ -112,6 +112,6 @@ def process_pcap_directory(input_dir, output_dir):
                 save_flows_data(flows, unique_ips, output_base)
 
 # Esempio di utilizzo
-input_directory = r"C:\Users\ACER\Documents\netmod2\tirocinio\pcap_demo"
-output_directory = r"C:\Users\ACER\Documents\netmod2\tirocinio\csv_demo"
+input_directory = r"C:\Users\ACER\Project_Course\pcap_demo"
+output_directory = r"C:\Users\ACER\Project_Course\file_extract_demo"
 process_pcap_directory(input_directory, output_directory)

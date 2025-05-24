@@ -1,0 +1,181 @@
+{
+    "unique_ips": [
+        "10.0.0.1",
+        "10.0.0.6",
+        "10.0.0.3",
+        "10.0.0.5",
+        "10.0.0.4",
+        "10.0.0.2",
+        "10.0.0.7"
+    ],
+    "connections": [
+        {
+            "source_ip": "10.0.0.1",
+            "destination_ip": "10.0.0.6",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093334.230393,
+            "end_timestamp": 1741093361.555753,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 14.345648113804078
+        },
+        {
+            "source_ip": "10.0.0.6",
+            "destination_ip": "10.0.0.1",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093334.230423,
+            "end_timestamp": 1741093361.555693,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 14.345695427579932
+        },
+        {
+            "source_ip": "10.0.0.2",
+            "destination_ip": "10.0.0.6",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093340.260566,
+            "end_timestamp": 1741093362.610485,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 17.53921338972122
+        },
+        {
+            "source_ip": "10.0.0.6",
+            "destination_ip": "10.0.0.2",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093340.260601,
+            "end_timestamp": 1741093362.61044,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 17.539276255613824
+        },
+        {
+            "source_ip": "10.0.0.3",
+            "destination_ip": "10.0.0.6",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093346.41992,
+            "end_timestamp": 1741093363.602002,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 22.814464592782745
+        },
+        {
+            "source_ip": "10.0.0.6",
+            "destination_ip": "10.0.0.3",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093346.420004,
+            "end_timestamp": 1741093363.601922,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 22.814682080867104
+        },
+        {
+            "source_ip": "10.0.0.4",
+            "destination_ip": "10.0.0.6",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093352.519471,
+            "end_timestamp": 1741093364.629713,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 32.369295002088535
+        },
+        {
+            "source_ip": "10.0.0.6",
+            "destination_ip": "10.0.0.4",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093352.519499,
+            "end_timestamp": 1741093364.629657,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 32.36951995842633
+        },
+        {
+            "source_ip": "10.0.0.5",
+            "destination_ip": "10.0.0.6",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093358.5509,
+            "end_timestamp": 1741093365.673474,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 55.03628252848332
+        },
+        {
+            "source_ip": "10.0.0.6",
+            "destination_ip": "10.0.0.5",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093358.550944,
+            "end_timestamp": 1741093365.67308,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 55.03966882075071
+        },
+        {
+            "source_ip": "10.0.0.6",
+            "destination_ip": "10.0.0.7",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093365.684464,
+            "end_timestamp": 1741093372.704082,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 55.84349434414545
+        },
+        {
+            "source_ip": "10.0.0.7",
+            "destination_ip": "10.0.0.6",
+            "source_port": null,
+            "destination_port": null,
+            "protocol": "ICMP",
+            "start_timestamp": 1741093365.693065,
+            "end_timestamp": 1741093372.704061,
+            "total_packets": 4,
+            "total_bytes": 392,
+            "average_throughput_bps": 55.91216914472839
+        },
+        {
+            "source_ip": "10.0.0.2",
+            "destination_ip": "10.0.0.6",
+            "source_port": "40858",
+            "destination_port": "5001",
+            "protocol": "TCP",
+            "start_timestamp": 1741093376.78487,
+            "end_timestamp": 1741093376.78487,
+            "total_packets": 1,
+            "total_bytes": 74,
+            "average_throughput_bps": 74000.0
+        },
+        {
+            "source_ip": "10.0.0.6",
+            "destination_ip": "10.0.0.2",
+            "source_port": "5001",
+            "destination_port": "40858",
+            "protocol": "TCP",
+            "start_timestamp": 1741093376.784965,
+            "end_timestamp": 1741093376.784965,
+            "total_packets": 1,
+            "total_bytes": 54,
+            "average_throughput_bps": 54000.0
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+Indirizzi IP unici:
+10.0.0.1
+10.0.0.6
+10.0.0.5
+10.0.0.3
+10.0.0.4
+10.0.0.2
+10.0.0.7
+
+Connessioni attive:
+10.0.0.1:None -> 10.0.0.5:None [ICMP]
+  Start: 1741093333.207751, End: 1741093355.489121
+  Packets: 4, Bytes: 392
+  Throughput: 17.59 Bps
+
+10.0.0.5:None -> 10.0.0.1:None [ICMP]
+  Start: 1741093333.213935, End: 1741093355.489086
+  Packets: 4, Bytes: 392
+  Throughput: 17.60 Bps
+
+10.0.0.1:None -> 10.0.0.6:None [ICMP]
+  Start: 1741093334.224245, End: 1741093361.555748
+  Packets: 4, Bytes: 392
+  Throughput: 14.34 Bps
+
+10.0.0.6:None -> 10.0.0.1:None [ICMP]
+  Start: 1741093334.230716, End: 1741093361.555717
+  Packets: 4, Bytes: 392
+  Throughput: 14.35 Bps
+
+10.0.0.1:None -> 10.0.0.7:None [ICMP]
+  Start: 1741093335.204392, End: 1741093367.660883
+  Packets: 4, Bytes: 392
+  Throughput: 12.08 Bps
+
+10.0.0.7:None -> 10.0.0.1:None [ICMP]
+  Start: 1741093335.210412, End: 1741093367.660847
+  Packets: 4, Bytes: 392
+  Throughput: 12.08 Bps
+
+10.0.0.2:None -> 10.0.0.5:None [ICMP]
+  Start: 1741093339.266945, End: 1741093356.491896
+  Packets: 4, Bytes: 392
+  Throughput: 22.76 Bps
+
+10.0.0.5:None -> 10.0.0.2:None [ICMP]
+  Start: 1741093339.273089, End: 1741093356.491867
+  Packets: 4, Bytes: 392
+  Throughput: 22.77 Bps
+
+10.0.0.2:None -> 10.0.0.6:None [ICMP]
+  Start: 1741093340.254812, End: 1741093362.61048
+  Packets: 4, Bytes: 392
+  Throughput: 17.53 Bps
+
+10.0.0.6:None -> 10.0.0.2:None [ICMP]
+  Start: 1741093340.261031, End: 1741093362.610456
+  Packets: 4, Bytes: 392
+  Throughput: 17.54 Bps
+
+10.0.0.2:None -> 10.0.0.7:None [ICMP]
+  Start: 1741093341.281377, End: 1741093368.668237
+  Packets: 4, Bytes: 392
+  Throughput: 14.31 Bps
+
+10.0.0.7:None -> 10.0.0.2:None [ICMP]
+  Start: 1741093341.305468, End: 1741093368.668199
+  Packets: 4, Bytes: 392
+  Throughput: 14.33 Bps
+
+10.0.0.3:None -> 10.0.0.5:None [ICMP]
+  Start: 1741093345.393572, End: 1741093357.507409
+  Packets: 4, Bytes: 392
+  Throughput: 32.36 Bps
+
+10.0.0.5:None -> 10.0.0.3:None [ICMP]
+  Start: 1741093345.397182, End: 1741093357.507379
+  Packets: 4, Bytes: 392
+  Throughput: 32.37 Bps
+
+10.0.0.3:None -> 10.0.0.6:None [ICMP]
+  Start: 1741093346.406931, End: 1741093363.601997
+  Packets: 4, Bytes: 392
+  Throughput: 22.80 Bps
+
+10.0.0.6:None -> 10.0.0.3:None [ICMP]
+  Start: 1741093346.421363, End: 1741093363.601952
+  Packets: 4, Bytes: 392
+  Throughput: 22.82 Bps
+
+10.0.0.3:None -> 10.0.0.7:None [ICMP]
+  Start: 1741093347.420468, End: 1741093369.683141
+  Packets: 4, Bytes: 392
+  Throughput: 17.61 Bps
+
+10.0.0.7:None -> 10.0.0.3:None [ICMP]
+  Start: 1741093347.429519, End: 1741093369.68311
+  Packets: 4, Bytes: 392
+  Throughput: 17.62 Bps
+
+10.0.0.4:None -> 10.0.0.5:None [ICMP]
+  Start: 1741093351.483705, End: 1741093358.512361
+  Packets: 4, Bytes: 392
+  Throughput: 55.77 Bps
+
+10.0.0.5:None -> 10.0.0.4:None [ICMP]
+  Start: 1741093351.500591, End: 1741093358.512333
+  Packets: 4, Bytes: 392
+  Throughput: 55.91 Bps
+
+10.0.0.4:None -> 10.0.0.6:None [ICMP]
+  Start: 1741093352.515275, End: 1741093364.629708
+  Packets: 4, Bytes: 392
+  Throughput: 32.36 Bps
+
+10.0.0.6:None -> 10.0.0.4:None [ICMP]
+  Start: 1741093352.519714, End: 1741093364.62968
+  Packets: 4, Bytes: 392
+  Throughput: 32.37 Bps
+
+10.0.0.4:None -> 10.0.0.7:None [ICMP]
+  Start: 1741093353.508714, End: 1741093370.695216
+  Packets: 4, Bytes: 392
+  Throughput: 22.81 Bps
+
+10.0.0.7:None -> 10.0.0.4:None [ICMP]
+  Start: 1741093353.521285, End: 1741093370.695185
+  Packets: 4, Bytes: 392
+  Throughput: 22.83 Bps
+
+10.0.0.2:47068 -> 10.0.0.5:5001 [TCP]
+  Start: 1741093375.739962, End: 1741093375.739962
+  Packets: 1, Bytes: 74
+  Throughput: 74000.00 Bps
+
+10.0.0.5:5001 -> 10.0.0.2:47068 [TCP]
+  Start: 1741093375.740388, End: 1741093375.740388
+  Packets: 1, Bytes: 54
+  Throughput: 54000.00 Bps
+
+10.0.0.2:40858 -> 10.0.0.6:5001 [TCP]
+  Start: 1741093376.784133, End: 1741093376.784133
+  Packets: 1, Bytes: 74
+  Throughput: 74000.00 Bps
+
+10.0.0.6:5001 -> 10.0.0.2:40858 [TCP]
+  Start: 1741093376.785045, End: 1741093376.785045
+  Packets: 1, Bytes: 54
+  Throughput: 54000.00 Bps
+
+10.0.0.2:40176 -> 10.0.0.7:5001 [TCP]
+  Start: 1741093377.829448, End: 1741093377.829448
+  Packets: 1, Bytes: 74
+  Throughput: 74000.00 Bps
+
+10.0.0.7:5001 -> 10.0.0.2:40176 [TCP]
+  Start: 1741093377.829486, End: 1741093377.829486
+  Packets: 1, Bytes: 54
+  Throughput: 54000.00 Bps
+
+10.0.0.5:60890 -> 10.0.0.3:5001 [TCP]
+  Start: 1741093379.825766, End: 1741093379.826061
+  Packets: 2, Bytes: 140
+  Throughput: 140000.00 Bps
+
+10.0.0.3:5001 -> 10.0.0.5:60890 [TCP]
+  Start: 1741093379.825888, End: 1741093379.82614
+  Packets: 2, Bytes: 140
+  Throughput: 140000.00 Bps
+
+10.0.0.5:60890 -> 10.0.0.3:5001 [DATA]
+  Start: 1741093379.826119, End: 1741093379.826119
+  Packets: 1, Bytes: 77
+  Throughput: 77000.00 Bps
+

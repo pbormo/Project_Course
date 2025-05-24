@@ -1,6 +1,6 @@
 # Project_Course
 
-Questo progetto nasce come parte di un corso universitario e ha l'obiettivo di simulare una rete SDN usando Comnetsemu, generare traffico, salvare file .pcap, estrarre metriche di rete (throughput, delay, jitter).
+Questo progetto nasce come parte di un corso universitario e ha l'obiettivo di simulare una rete SDN usando Comnetsemu, generare traffico, salvare file .pcap, estrarre metriche di rete (throughput, delay, jitter) tramite un codice python e salvare i risultati all'interno di un file txt facilmente leggibile e un file json.
 
 ## Requisiti
 
@@ -15,22 +15,21 @@ Questo progetto nasce come parte di un corso universitario e ha l'obiettivo di s
 
 network.py: Script per configurare la rete in Mininet e generare traffico.
 
-estrazione_features_tirocinio.py: Script per analizzare i file pcap e estrarre le caratteristiche.
+estrazione_features_tirocinio.py: Script per estrarre le caratteristiche dai file pcap e salvarle su txt e json.
 
 pcap_demo/: Cartella dove posizionare i file pcap da analizzare.
 
-csv_demo/: Cartella dove verranno salvati i risultati dell'analisi.
+file_extract_demo/: Cartella dove verranno salvati i risultati dell'analisi.
 
 - `README.md` → questo file
 
 ## Come usare il progetto
-
-1. Avvia la rete: `sudo python3 topology/topology.py`  
-2. Genera traffico e salva i file .pcap nella cartella `pcap_dumps/`  
-3. Estrai metriche con: `python3 scripts/parse_pcap.py --input pcap_dumps/file.pcap --output dati.csv`  
-4. Addestra il modello: `python3 ml/lstm_train.py --data dati.csv`  
-5. Fai una previsione: `python3 ml/lstm_predict.py --model modello.h5 --input nuovo_file.csv`  
-6. Visualizza i risultati: `python3 scripts/plot_results.py --input predictions.csv`
+1. Accedere a virtualbox ed attivare la macchina di comnetsemu
+2. Connettersi a github da macchina virtuale e scaricare il file network.py
+3. Lanciare il comando: `sudo python3 network.py` 
+4. Genera traffico e salva i file .pcap nella cartella `pcap_dumps/`
+5. Trasferire i risultati nella cartella `pcap_dumps/` sul PC nella cartella pcap_demo/
+6. Quindi utilizzare il file estrazione_features_tirocinio.py, una volta che questo codice finirà verranno salvati i file txt e json contenenti le metriche d'interesse all'interno della cartella `file_extract_demo`
 
 ## Note
 
@@ -38,4 +37,4 @@ Assicurati che la cartella `/home/comnetsemu/pcap_dumps` sia montata anche nei c
 
 ## Autori
 
-Progetto sviluppato nell’ambito del corso universitario su reti e machine learning.
+Progetto sviluppato nell’ambito del corso universitario di networking 2 presso l'Università degli Studi di Trento.

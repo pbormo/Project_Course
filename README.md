@@ -33,7 +33,7 @@ file_extract_demo/: Cartella dove verranno salvati i risultati dell'analisi.
 
 ## Note
 
-Assicurati che la cartella `/home/comnetsemu/pcap_dumps` sia montata anche nei container Docker usati dagli host h5, h6, h7. Il progetto è eseguito all’interno di una macchina virtuale con Comnetsemu e si basa sulla raccolta dati real-time generati tramite simulazione. Possibili estensioni del progetto includono l’uso di altri modelli predittivi (es. Prophet) e l’aggiunta di ulteriori metriche.
+Il progetto è eseguito all’interno di una macchina virtuale con Comnetsemu e si basa sulla raccolta dati real-time generati tramite simulazione. Possibili estensioni del progetto includono l’uso di altri modelli predittivi e l’aggiunta di ulteriori metriche.
 
 ## Autori
 

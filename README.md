@@ -16,7 +16,7 @@ Questo progetto nasce come parte di un corso universitario e ha l'obiettivo di s
 ## Struttura del progetto
 Project_course/
 │
-├── file_extract_demo/     # Cartella dove verranno salvati i risultati dell'analisi.
+├── file_extract_demo/     # Cartella dove verranno salvati i risultati dell'analisi. (json and text)
 │
 ├── pcap_demo/             # Cartella dove posizionare i file pcap da analizzare.
 │
@@ -78,7 +78,7 @@ Connessioni attive:
   Throughput: 54.58 Bps ....
 ## Note
 
-Il progetto è eseguito all’interno di una macchina virtuale con Comnetsemu e si basa sulla raccolta dati real-time generati tramite simulazione. Possibili estensioni del progetto includono l’uso di altri modelli predittivi e l’aggiunta di ulteriori metriche.
+Il progetto è eseguito all’interno di una macchina virtuale con Comnetsemu e si basa sulla raccolta dati real-time generati tramite simulazione. Per l'estrazione delle feature è stato lanciato il codice all'interno di un'ambiente conda. Possibili estensioni del progetto includono l’uso di altri modelli predittivi e l’aggiunta di ulteriori metriche.
 
 ## Autori
 

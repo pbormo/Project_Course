@@ -14,16 +14,15 @@ Questo progetto nasce come parte di un corso universitario e ha l'obiettivo di s
 - Librerie Python: pyshark, os, json, defauldict 
 
 ## Struttura del progetto
-
-network.py: Script per configurare la rete in Mininet e generare traffico.
-
-estrazione_features_tirocinio.py: Script per estrarre le caratteristiche dai file pcap e salvarle su txt e json.
-
-pcap_demo/: Cartella dove posizionare i file pcap da analizzare.
-
-file_extract_demo/: Cartella dove verranno salvati i risultati dell'analisi.
-
-- `README.md` → questo file
+Project_course/
+│
+├── file_extract_demo/     # Cartella dove verranno salvati i risultati dell'analisi.
+│
+├── pcap_demo/             # Cartella dove posizionare i file pcap da analizzare.
+│
+├── README.md                                       # Documentazione del progetto (Questo file)
+├── network.py                                      # Script per configurare la rete in Mininet e generare traffico.
+├── estrazione_features_tirocinio.py                # Estrarre le caratteristiche dai file pcap e salvarle su txt e json
 
 ## Come usare il progetto
 1. Accedere a virtualbox ed attivare la macchina di comnetsemu

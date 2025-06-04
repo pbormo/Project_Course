@@ -83,5 +83,5 @@ Connessioni attive:
 Il progetto è eseguito all’interno di una macchina virtuale con Comnetsemu e si basa sulla raccolta dati real-time generati tramite simulazione. Per l'estrazione delle feature è stato lanciato il codice all'interno di un'ambiente conda. Possibili estensioni del progetto includono l’uso di altri modelli predittivi e l’aggiunta di ulteriori metriche.
 
 ## Autori
-
+Paolo Bormolini (studente universitario) numero matricola 257775, e-mail: paolo.bormolini@studenti.unitn.it
 Progetto sviluppato nell’ambito del corso universitario di networking 2 presso l'Università degli Studi di Trento.

@@ -36,7 +36,7 @@ Project_course/
 ## Esempi di risultati dei file pcap_demo già inseriti nella cartella
 
 Partendo dal file h1_traffic.pcap si riescono ad estrarre le seguenti metriche scritte nel file h1_traffic.txt e h1_traffic.json:
-
+```plaintext
 json:
 {
     "unique_ips": [
@@ -77,6 +77,7 @@ Connessioni attive:
   Start: 1741092804.801575, End: 1741092811.984088
   Packets: 4, Bytes: 392
   Throughput: 54.58 Bps ....
+```
 ## Note
 
 Il progetto è eseguito all’interno di una macchina virtuale con Comnetsemu e si basa sulla raccolta dati real-time generati tramite simulazione. Per l'estrazione delle feature è stato lanciato il codice all'interno di un'ambiente conda. Possibili estensioni del progetto includono l’uso di altri modelli predittivi e l’aggiunta di ulteriori metriche.

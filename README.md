@@ -20,6 +20,7 @@ Project_course/
 ├── file_extract_demo/     # Cartella dove verranno salvati i risultati dell'analisi. (json and text)
 │
 ├── pcap_demo/             # Cartella dove posizionare i file pcap da analizzare.
+├──────── aaa.pcap e tcp-ecn-sample.pcap     # File di test per il funzionamento dell'estrazione delle features senza la generazione dei file .pcap tramite Comnetsemu
 │
 ├── README.md                                       # Documentazione del progetto (Questo file)
 ├── network.py                                      # Script per configurare la rete in Mininet e generare traffico.

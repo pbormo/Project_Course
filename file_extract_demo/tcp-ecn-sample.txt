@@ -1,0 +1,25 @@
+Indirizzi IP unici:
+1.1.12.1
+1.1.23.3
+
+Connessioni attive:
+1.1.23.3:46557 -> 1.1.12.1:80 [TCP]
+  Start: 1303496629.238845, End: 1303496723.341845
+  Packets: 308, Bytes: 18480
+  Throughput: 196.38 Bps
+
+1.1.12.1:80 -> 1.1.23.3:46557 [TCP]
+  Start: 1303496629.609845, End: 1303496723.923845
+  Packets: 169, Bytes: 92390
+  Throughput: 979.60 Bps
+
+1.1.23.3:46557 -> 1.1.12.1:80 [HTTP]
+  Start: 1303496629.700845, End: 1303496629.700845
+  Packets: 1, Bytes: 215
+  Throughput: 215000.00 Bps
+
+1.1.12.1:80 -> 1.1.23.3:46557 [HTTP]
+  Start: 1303496723.222845, End: 1303496723.222845
+  Packets: 1, Bytes: 192
+  Throughput: 192000.00 Bps
+

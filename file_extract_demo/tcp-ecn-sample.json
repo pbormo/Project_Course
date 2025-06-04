@@ -1,0 +1,56 @@
+{
+    "unique_ips": [
+        "1.1.12.1",
+        "1.1.23.3"
+    ],
+    "connections": [
+        {
+            "source_ip": "1.1.23.3",
+            "destination_ip": "1.1.12.1",
+            "source_port": "46557",
+            "destination_port": "80",
+            "protocol": "TCP",
+            "start_timestamp": 1303496629.238845,
+            "end_timestamp": 1303496723.341845,
+            "total_packets": 308,
+            "total_bytes": 18480,
+            "average_throughput_bps": 196.38056188015346
+        },
+        {
+            "source_ip": "1.1.12.1",
+            "destination_ip": "1.1.23.3",
+            "source_port": "80",
+            "destination_port": "46557",
+            "protocol": "TCP",
+            "start_timestamp": 1303496629.609845,
+            "end_timestamp": 1303496723.923845,
+            "total_packets": 169,
+            "total_bytes": 92390,
+            "average_throughput_bps": 979.60005802899
+        },
+        {
+            "source_ip": "1.1.23.3",
+            "destination_ip": "1.1.12.1",
+            "source_port": "46557",
+            "destination_port": "80",
+            "protocol": "HTTP",
+            "start_timestamp": 1303496629.700845,
+            "end_timestamp": 1303496629.700845,
+            "total_packets": 1,
+            "total_bytes": 215,
+            "average_throughput_bps": 215000.0
+        },
+        {
+            "source_ip": "1.1.12.1",
+            "destination_ip": "1.1.23.3",
+            "source_port": "80",
+            "destination_port": "46557",
+            "protocol": "HTTP",
+            "start_timestamp": 1303496723.222845,
+            "end_timestamp": 1303496723.222845,
+            "total_packets": 1,
+            "total_bytes": 192,
+            "average_throughput_bps": 192000.0
+        }
+    ]
+}
